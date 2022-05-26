@@ -1,0 +1,11 @@
+body {
+  background-color:#000000;
+  margin: 0;
+   font-family: 'Helvetica', 'Arial', sans-serif;
+   color: #444444;
+   font-size: 9pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+
+}

@@ -1,0 +1,291 @@
+.App {
+  text-align: center;
+  background-color: #000000;
+  text-align: center;
+}
+
+.enEnter {
+  text-align: center;
+  opacity: 90%;
+  max-width: 40vmin;
+  min-width: 14vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5vmin;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 35%;
+  border-top-left-radius: 35%;
+  border-color: #bd1513;
+  border-width: 3px;
+  border-style: dashed;
+  animation-duration: 2s;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 100%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.enEnter2 {
+  text-align: center;
+  opacity: 90%;
+  max-width: 40vmin;
+  min-width: 14vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5vmin;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-color: #f000e8;
+  border-width: 2.8px;
+  border-style: dashed;
+  animation-duration: 2s;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 100%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.enEnter {
+  text-align: center;
+  opacity: 90%;
+  max-width: 40vmin;
+  min-width: 14vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5vmin;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 35%;
+  border-top-left-radius: 35%;
+  border-color: #bd1513;
+  border-width: 3px;
+  border-style: dashed;
+  animation-duration: 2s;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 100%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.enEnter2 {
+  text-align: center;
+  opacity: 90%;
+  max-width: 40vmin;
+  min-width: 14vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5vmin;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-color: #f000e8;
+  border-width: 2.8px;
+  border-style: dashed;
+  animation-duration: 2s;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 100%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.enEnter3 {
+  text-align: center;
+  max-width: 100vmin;
+  min-width: 50vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5vmin;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-color: #f000e8;
+  border-width: 2.8px;
+  border-style: dashed;
+  animation-duration: 2s;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 100%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.enEnter4 {
+  text-align: center;
+  max-width: 100vmin;
+  min-width: 50vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5vmin;
+  text-align: center;
+  border-radius: 10px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-color: #f000e8;
+  border-width: 2.8px;
+  border-style: dashed;
+  animation-duration: 2s;
+  animation: slide 3s ease-in-out infinite alternate;
+  background-size: 100%;
+  background-position: 0 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.bggg {
+  animation: slidee 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-104deg, #f000e8 100%, #C9450A 10);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bgg {
+  animation: slidee 2s ease-in-out infinite alternate;
+  background-image: linear-gradient(7deg, #f000e8 50%, #C9450A 0);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg {
+  animation: slide 2s ease-in-out infinite alternate;
+  background-image: linear-gradient(-90deg, #f000e8 50%, #C9450A 0);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 3s;
+}
+
+.bg3 {
+  animation-duration: 4s;
+}
+
+.bg4 {
+  animation-duration: 4.3s;
+}
+
+.enEnterButton {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vmin;
+  margin-top: 1vmin;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 5px;
+  border-color: #b7f23c;
+  text-decoration: none;
+  color: #b7f23c;
+  max-width: 7vmin;
+  min-width: 1vmin;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ENlogo {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  opacity: 100%;
+  max-width: 100vw;
+  min-width: 10vw;
+  pointer-events: none;
+  animation: pulsefade 1s ease-in-out infinite alternate;
+  z-index: 5;
+}
+
+#desc {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #444444;
+  font-size: 9pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(15%);
+  }
+}
+@keyframes slidee {
+  0% {
+    transform: translateX(-95%);
+  }
+  100% {
+    transform: translateX(15%);
+  }
+}
+@keyframes pulsefade {
+  0% {
+    opacity: 20;
+    filter: brightness(100%);
+    filter: saturate(1);
+  }
+  100% {
+    opacity: 100;
+    filter: brightness(200%);
+    filter: saturate(8);
+  }
+}
+
+/*# sourceMappingURL=App.css.map */
