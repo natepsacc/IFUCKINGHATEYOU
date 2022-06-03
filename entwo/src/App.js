@@ -20,7 +20,7 @@ function read()
                if (txtFile.status === 200)
                {
                     // Makes sure it's found the file.
-                    document.getElementById("desc").innerText = txtFile.responseText;
+                    document.getElementById("desc").innerHTML = txtFile.responseText;
                }
           }
      }
@@ -78,14 +78,8 @@ function Landing(props) {
 
     <span>
     <RectangleSlide/>
-  <div className="enEnter" id="enEnter">
-      <div className="enEnter2" id="enEnter2">
-<div className="enEnter" id="enEnter">
-  <div className="enEnter2" id="enEnter2">
-  <div className="enEnter" id="enEnter">
-      <div className="enEnter2" id="enEnter2">
-<div className="enEnter" id="enEnter">
-  <div className="enEnter2" id="enEnter2">
+
+  <div className="enEnter2" id="enEnter2" >
   <ENLogo/>
 
       <p id="desc">
@@ -93,16 +87,12 @@ function Landing(props) {
       </p>
 
       <div id="enEnterButton" className="enEnterButton">
-       <a href="#/gallery"  >Enter The Digital Gallery</a>
+       <a href="#/gallery"  >
+       <img src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/entworesources/enterDigital.png" className="entDigital" alt="enter the digital realm of eating napkins"/>
+       </a>
       </div>
   </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
+
   </span>
 );
 
