@@ -60,6 +60,10 @@
 }
 .entDigital{
   max-width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  animation:entDigitalAni 3s ease-in-out infinite alternate;
+
 }
 
 
@@ -165,7 +169,7 @@ a.visited{
 #desc{
   font-family: 'Helvetica', 'Arial', sans-serif;
   color: #444444;
-  font-size: 2vw;
+  font-size: 1.2vw;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
  text-transform: uppercase ;
@@ -216,9 +220,20 @@ a.visited{
   }
   100% {
     transform:translateX(15%);
+  }
+}
+@keyframes entDigitalAni {
+  0% {
+    transform: rotate(0deg);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: rotate(360deg);
+    filter: brightness(200%);
 
   }
 }
+
 @keyframes pulsefade {
   0% {
     opacity: 20;

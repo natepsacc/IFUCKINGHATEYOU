@@ -64,7 +64,7 @@ function RectangleSlide(props) {
 
 function ENLogo(props) {
   return(
-    <a href='/'>
+    <a href='#/'>
     <img src={logo} className="ENlogo" alt="logo"/>
     </a>
 );
@@ -85,10 +85,10 @@ function Landing(props) {
       <p id="desc">
 
       </p>
-
+<br/>
       <div id="enEnterButton" className="enEnterButton">
        <a href="#/gallery"  >
-       <img src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/entworesources/enterDigital.png" className="entDigital" alt="enter the digital realm of eating napkins"/>
+       <img src="https://i.imgur.com/uN4NXM9.png" className="entDigital" alt="enter the digital realm of eating napkins"/>
        </a>
       </div>
   </div>
