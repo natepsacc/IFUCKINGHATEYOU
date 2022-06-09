@@ -48,14 +48,9 @@ const imageClick = (props) => {
       return (
       <ThemeProvider theme={theme}>
 
-  <ImageList variant="masonry" cols={{
-                    mobile: 2,
-                    bigMobile: 3,
-                    tablet: 4,
-                    desktop: 4
-                  }} gap={2}>
+  <ImageList variant="masonry"  gap={10}>
      {sort.map((item) => (
-       <ImageListItem key={item.img} id="height" sx={{m:1, maxWidth:"30%"}}>
+       <ImageListItem key={item.img} id="height" sx={{maxHeight:"40%", maxWidth:"47%"}}>
          <img
 
            id={item.img}
