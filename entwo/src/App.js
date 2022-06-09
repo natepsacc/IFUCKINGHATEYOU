@@ -11,7 +11,7 @@ function read()
 {
 
      var txtFile = new XMLHttpRequest();
-     txtFile.open("GET", "https://storageapi2.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/text/firstPageDesc.txt", true);
+     txtFile.open("GET", "https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/text/frstpdesc2.txt", true);
      txtFile.onreadystatechange = function()
      {
           if (txtFile.readyState === 4)
@@ -102,12 +102,20 @@ function Landing(props) {
       <p id="desc">
 
       </p>
-      <div id="enEnterButton" className="enEnterButton">
+      <Box
+      sx={{maxWidth:{
+              mobile: '60vw',
+              bigMobile: '60vw',
+              tablet: '20vw',
+              desktop: '20vw'},
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            }}>
        <a href="#/gallery"  >
        <img
            src="https://i.imgur.com/uN4NXM9.png" className="entDigital" alt="enter the digital realm of eating napkins"/>
        </a>
-      </div>
+      </Box>
   </Box>
 
   </span>
