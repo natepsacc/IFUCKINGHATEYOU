@@ -11,7 +11,7 @@ const theme = createTheme({
 spacing: 2,
   breakpoints: {
     values: {
-      mobile: 0,
+      mobile: 100,
       bigMobile: 350,
       tablet: 650,
       desktop: 1000
@@ -49,7 +49,7 @@ const imageClick = (props) => {
       <ThemeProvider theme={theme}>
 
   <ImageList variant="masonry" cols={{
-                    mobile: 2,
+                    mobile: 3,
                     bigMobile: 3,
                     tablet: 4,
                     desktop: 4
