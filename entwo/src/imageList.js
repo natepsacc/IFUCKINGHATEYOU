@@ -49,7 +49,7 @@ const imageClick = (props) => {
       <ThemeProvider theme={theme}>
 
   <ImageList variant="masonry" cols={{
-                    mobile: 3,
+                    mobile: 2,
                     bigMobile: 3,
                     tablet: 4,
                     desktop: 4
