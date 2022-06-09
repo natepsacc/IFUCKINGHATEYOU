@@ -53,9 +53,9 @@ const imageClick = (props) => {
                     bigMobile: 3,
                     tablet: 4,
                     desktop: 4
-                  }} gap={8}>
+                  }} gap={2}>
      {sort.map((item) => (
-       <ImageListItem key={item.img} id="height" sx={{m:1, maxWidth:"50%"}}>
+       <ImageListItem key={item.img} id="height" sx={{m:1, maxWidth:"30%"}}>
          <img
 
            id={item.img}

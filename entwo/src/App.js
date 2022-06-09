@@ -60,7 +60,7 @@ function RectangleSlide(props) {
 
 function ENLogo(props) {
   return(
-    <a href='#/'>
+    <a id="enlogoA" href='#/'>
     <img src={logo} className="ENlogo" alt="logo"/>
     </a>
 );
@@ -81,7 +81,6 @@ function Landing(props) {
       <p id="desc">
 
       </p>
-<br/>
       <div id="enEnterButton" className="enEnterButton">
        <a href="#/gallery"  >
        <img src="https://i.imgur.com/uN4NXM9.png" className="entDigital" alt="enter the digital realm of eating napkins"/>

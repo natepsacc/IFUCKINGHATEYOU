@@ -122,21 +122,6 @@
 
 .enEnterButton{
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:  5vmin;
-  margin-top: 1vmin;
-  padding: 5px;
-
-
-  border-style: solid;
-  border-radius: 3px;
-  border-width: 0px;
-  border-color: #b7f23c;
-  text-decoration: none;
-  color: #b7f23c;
-  max-width: 7vmin;
-  min-width: 1vmin;
 
 }
 a{
@@ -151,10 +136,15 @@ a.visited{
   max-width: inherit;
 
 }
+.enlogoA{
+  position: fixed;
 
+}
 .ENlogo {
+  position: fixed;
+  top: 4vh;
+  left: 30vw;
   background-size: fit;
-  position: sticky;
   margin-bottom: 1vh;
 
   opacity:100%;
