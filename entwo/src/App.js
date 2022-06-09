@@ -5,7 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import StandardImageList from './imageList.js';
 import { HashRouter, Route, Routes } from "react-router-dom";
-
+import Box from '@mui/material/Box';
 
 function read()
 {
@@ -61,7 +61,9 @@ function RectangleSlide(props) {
 function ENLogo(props) {
   return(
     <a id="enlogoA" href='#/'>
-    <img src={logo} className="ENlogo" alt="logo"/>
+    <img src={logo} className="ENlogo" alt="logo" sx={{
+
+        }}/>
     </a>
 );
 }
@@ -75,7 +77,26 @@ function Landing(props) {
     <span>
     <RectangleSlide/>
 
-  <div className="enEnter2" id="enEnter2" >
+  <Box
+  sx={{maxWidth:{
+          mobile: '100vw',
+          bigMobile: '100vw',
+          tablet: '30vw',
+          desktop: '30vw'},
+        maxHeight:{
+          mobile: '100%',
+          bigMobile: '100%',
+          tablet: '25%',
+          desktop: ''},
+          border: '10px dashed #f000e8',
+          borderTopRightRadius: '30%',
+          borderTopLeftRadius: '30%',
+          paddingTop:'15vh',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+
+
+}} >
   <ENLogo/>
 
       <p id="desc">
@@ -83,10 +104,11 @@ function Landing(props) {
       </p>
       <div id="enEnterButton" className="enEnterButton">
        <a href="#/gallery"  >
-       <img src="https://i.imgur.com/uN4NXM9.png" className="entDigital" alt="enter the digital realm of eating napkins"/>
+       <img
+           src="https://i.imgur.com/uN4NXM9.png" className="entDigital" alt="enter the digital realm of eating napkins"/>
        </a>
       </div>
-  </div>
+  </Box>
 
   </span>
 );

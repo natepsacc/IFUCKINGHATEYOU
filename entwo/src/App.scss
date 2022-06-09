@@ -2,6 +2,7 @@
 width: device-width;
 user-zoom: fixed;
 }
+
 .App {
   text-align: center;
   background-color:#000000;
@@ -12,38 +13,16 @@ user-zoom: fixed;
 .interiorGal{
   margin-top: 25vh;
 }
-.enEnter{
-  text-align: center;
-  opacity: 90%;
-  max-width: 40vmin;
-  min-width: 14vmin;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.5vmin;
-  text-align: center;
-  border-radius: 10px;
-  border-top-right-radius:35%;
-  border-top-left-radius:35%;
-  border-color: #bd1513;
-  border-width: 3px;
-  border-style: dashed;
-  animation-duration: 2s;
 
-
-  animation:slide 3s ease-in-out infinite alternate;
-
-  background-size: 100%;
-  background-position: 0 50%;
-  animation: moveGradient 4s alternate infinite;
-}
 .enEnter2{
   text-align: center;
   opacity: 90%;
-  max-width: 40vmin;
-  min-width: 14vmin;
+  min-width: 50%;
+  max-width:45%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vh;
+  padding-top: 10%;
   padding-left: 5vw;
   padding-right: 5vw;
 
@@ -62,9 +41,7 @@ user-zoom: fixed;
 
   animation:slide 3s ease-in-out infinite alternate;
 
-  background-size: 100%;
-  background-position: 0 50%;
-  animation: moveGradient 4s alternate infinite;
+
 }
 .entDigital{
   max-width: 10vw;
@@ -151,7 +128,7 @@ a.visited{
   position: fixed;
   top: 4vh;
   left: 50%;
-     transform: translateX(-50%);  background-size: fit;
+  transform: translateX(-50%);  background-size: fit;
   margin-bottom: 1vh;
 
   opacity:100%;
