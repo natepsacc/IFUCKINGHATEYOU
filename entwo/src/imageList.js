@@ -11,10 +11,10 @@ const theme = createTheme({
 spacing: 2,
   breakpoints: {
     values: {
-      mobile: 100,
-      bigMobile: 350,
-      tablet: 650,
-      desktop: 1000
+      mobile: 0,
+      bigMobile: 640,
+      tablet: 1024,
+      desktop: 1200,
     }
   }
 });

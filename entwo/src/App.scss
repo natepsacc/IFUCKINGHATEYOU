@@ -150,12 +150,12 @@ a.visited{
 .ENlogo {
   position: fixed;
   top: 4vh;
-  left: 30vw;
-  background-size: fit;
+  left: 50%;
+     transform: translateX(-50%);  background-size: fit;
   margin-bottom: 1vh;
 
   opacity:100%;
-
+  width: 50vw;
   max-width: inherit;
   pointer-events: none;
 
