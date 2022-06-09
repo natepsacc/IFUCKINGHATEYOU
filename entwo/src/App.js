@@ -45,18 +45,14 @@ function rmbut(){
 function RectangleSlide(props) {
   return(<div>
     <div class="bggg"></div>
-    <div class="bggg bg2"></div>
     <div class="bggg bg3"></div>
-    <div class="bggg bg4"></div>
 
-    <div class="bgg"></div>
     <div class="bgg bg2"></div>
     <div class="bgg bg3"></div>
     <div class="bgg bg4"></div>
 
     <div class="bg"></div>
     <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
     <div class="bgg bg4"></div>
 </div>
 );
