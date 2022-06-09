@@ -50,7 +50,7 @@ const imageClick = (props) => {
 
   <ImageList variant="masonry" cols={4} gap={8}>
      {sort.map((item) => (
-       <ImageListItem key={item.img} id="height" sx={{m:2}}>
+       <ImageListItem key={item.img} id="height" sx={{m:1}}>
          <img
            id={item.img}
            src={`${item.img}`}
@@ -61,8 +61,13 @@ const imageClick = (props) => {
               />
               <ImageListItemBar sx={{
                 fontFamily: 'Courier New',
-                fontFamily: 'monospace'
-
+                fontFamily: 'monospace',
+                fontSize: {
+                  mobile: '6pt',
+                  bigMobile: '6pt',
+                  tablet: '9pt',
+                  desktop: '10pt'
+                }
               }}
                title={item.title} />
        </ImageListItem>
@@ -74,8 +79,7 @@ const imageClick = (props) => {
 
       );
 }
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=525458408/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless>
-<a href=""></a></iframe>
+
 const itemData = [
   {
     img: 'https://f4.bcbits.com/img/a2212889666_5.jpg',
