@@ -61,7 +61,7 @@ function RectangleSlide(props) {
 function ENLogo(props) {
   return(
     <a id="enlogoA" href='/#/'>
-    <img src={logo} className={props.Cname} alt="logo" sx={{
+    <img src={logo} className='ENlogo' alt="logo" sx={{
 
         }}/>
     </a>
@@ -100,7 +100,7 @@ function Landing(props) {
           marginTop: '5vh'
 
 }} >
-  <ENLogo Cname='ENlogo'/>
+  <ENLogo />
 
       <p id="desc">
 
@@ -134,7 +134,7 @@ function GalleryLayout(props){
 
     return(
       <div>
-      <ENLogo Cname='ENlogoSM'/>
+      <ENLogo />
       <RectangleSlide/>
 
   <div class="interiorGal">
