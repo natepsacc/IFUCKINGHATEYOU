@@ -99,6 +99,7 @@ const itemData = [
     author: 'Indoor Astronauts',
     tag: 'music',
   },
+  
   {
     img: 'https://f4.bcbits.com/img/a0279092000_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/track/feel-me',
@@ -170,14 +171,7 @@ const itemData = [
     tag: '021022',
 
   },
-  {
-    img: 'https://i.imgur.com/qpCTbQ2.jpg',
-    title: 'Brain Sweat Recording Session',
-    author:'042422',
-    mSrc : '#/042422',
-    tag: '042422',
-    descTxt : 'test'
-  },
+
   {
     img: 'https://f4.bcbits.com/img/a4239659115_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/blood-agar-home',

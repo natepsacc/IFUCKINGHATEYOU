@@ -129,7 +129,60 @@ function Landing(props) {
 
 
 function GalleryLayout(props){
+  const GLayoutFootcheck = "Eating Napkins X Schidt.co 2022";
 
+if (props.text ===  GLayoutFootcheck){
+  return(
+    <div>
+    <ENLogo />
+    <RectangleSlide/>
+
+<div class="interiorGal">
+
+<StandardImageList tag={props.tag}/>
+<Box
+sx={{maxWidth:{
+      mobile: '75vw',
+      bigMobile: '75vw',
+      tablet: '30vw',
+      desktop: '30vw'},
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      zIndex: '5',
+      backgroundColor: 'white',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      padding: '3vh',
+      fontFamily: 'Courier New',
+    }}>
+
+
+
+
+
+<p id="postDesc"><a href="https://www.schidt.co/">{props.text}</a></p>
+
+</Box>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+</div>
+
+</div>
+
+
+);
+}else{
     console.log("BR Hello world");
 
     return(
@@ -186,23 +239,12 @@ sx={{maxWidth:{
 
 }
 
-function SpotifyPage(props){
 
-  return(
-    <div>
-    <ENLogo />
-    <RectangleSlide/>
 
-<div class="interiorGal">
 
-</div>
-</div>
-);
+
+
 }
-
-
-
-
 
 function App() {
 
