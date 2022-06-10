@@ -186,7 +186,19 @@ sx={{maxWidth:{
 
 }
 
+function SpotifyPage(props){
 
+  return(
+    <div>
+    <ENLogo />
+    <RectangleSlide/>
+
+<div class="interiorGal">
+
+</div>
+</div>
+);
+}
 
 
 
@@ -195,6 +207,7 @@ sx={{maxWidth:{
 function App() {
 
   document.getElementById("desc");
+  const GLayoutFoot = "Eating Napkins X Schidt.co 2022";
  const A042422TXT = "From the Brain Sweat recording session on Apr 24th. Working on recording the album the Metaphysical Cowboy with recording engineer Ben Slater. Photographed: Chevy Kalpin, Nick McDill, Ben Slater, and Caleb Phillips. - Mary M";
  const A042922TXT = "Photos were taken at the greenhouse on Apr.29th during the noise show and before at the band practice space. The lineup included Tom Mazetti on solo sousaphone. Oxygen thief on bass and electronics and Forrest Friends out of Seattle. - Mary M";
  const CharlieFestTXT = "Taken during CharlieFest which was a birthday celebration for Charlie. Brain Sweat, Yegarma, Super Ultra, and Nyandi played sets in the woods using a generator for power. - Mary M"
@@ -202,11 +215,12 @@ function App() {
     <span>
 
 		<Routes>
-       <Route path='/gallery' element={<GalleryLayout /> } />
+       <Route path='/gallery' element={<GalleryLayout text={GLayoutFoot}/> } />
        <Route  path='/' element={<Landing/> } />
        <Route  path='/042422' element={<GalleryLayout tag="042422" text={A042422TXT}/> } />
        <Route  path='/042922' element={<GalleryLayout tag="042922" text={A042922TXT}/> } />
        <Route  path='/CharlieFest' element={<GalleryLayout tag="CharlieFest" text={CharlieFestTXT}/> } />
+       <Route  path='/ChevySpotify' element={<SpotifyPage SpotAcc="ChevySpotify" /> } />
 
 
 

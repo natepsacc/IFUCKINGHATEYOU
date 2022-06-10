@@ -91,7 +91,6 @@ const bodyText = "This is not really a bird nest.";
       );
 
 }
-
 const itemData = [
   {
     img: 'https://f4.bcbits.com/img/a2212889666_5.jpg',
@@ -130,6 +129,13 @@ const itemData = [
     tag: 'music',
   },
   {
+    img: 'https://i.imgur.com/I8DmaOv.jpg',
+    mSrc: 'https://open.spotify.com/playlist/1Q4GF9prAv6dWwvOjImCi2?si=8575ae0e5d4f4fad',
+    title: 'Trucking To Tokyo',
+    author:'Spotify Discography Playlist',
+    tag: 'music',
+  },
+  {
     img: 'https://i.imgur.com/MdPNkEi.jpg',
     title: 'GUTTER HAIR Live',
     author:'042922',
@@ -152,9 +158,10 @@ const itemData = [
     author:'Evan Kallas & Chevy Kalpin',
     tag: 'music',
   },
+
   {
     img: 'https://i.imgur.com/a5o0zro.jpg',
-    title: 'Nick at Brain Sweat Practice',
+    title: 'Nick at Practice',
     tag: 'ppl',
   },
   {
@@ -187,12 +194,7 @@ const itemData = [
   },
 
 
-  {
-    img: 'https://i.imgur.com/Ratasd3.jpg',
-    title: 'Nick at Practice',
-    tag: 'ppl',
 
-  },
 
   {
     img: 'https://f4.bcbits.com/img/a0736948202_5.jpg',
@@ -208,11 +210,7 @@ const itemData = [
     tag: 'ppl',
 
   },
-  {
-    img: 'https://i.imgur.com/qpCTbQ2.jpg',
-    title: 'Nick at Brain Sweat Practice',
-    tag: 'ppl',
-  },
+
 
 
 
@@ -244,7 +242,7 @@ const itemData = [
 
 
   {
-    img: 'https://f4.bcbits.com/img/a2466535854_16.jpg',
+    img: 'https://f4.bcbits.com/img/a1944802426_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/booster-pack',
     title: 'Booster Pack',
     author:'Pocket Slop',
@@ -281,7 +279,13 @@ const itemData = [
     author:'Over The Blue Hills',
     tag: 'music',
   },
-
+  {
+    img: 'https://f4.bcbits.com/img/a0330761750_16.jpg',
+    mSrc: 'https://open.spotify.com/album/072FQfVrE3FCW2kIXJEw9f?si=I0MHBm8bR-SF4h31-A7uIQ',
+    title: 'plainly lacking having (Spotify)',
+    author:'Chevy Kalpin ',
+    tag: 'music',
+  },
 
   {
     img: 'https://f4.bcbits.com/img/a2839535828_16.jpg',
@@ -289,6 +293,13 @@ const itemData = [
     title: 'You Follow Me Everywhere I Go ',
     author:'belac',
     tag: 'music',
+  },
+  {
+    img: '  https://i.imgur.com/GbZrSJo.jpg',
+    title: 'BELAC',
+    author:'021022',
+    mSrc : '#/021022',
+    tag: '021022',
   },
   {
     img: 'https://i.imgur.com/poD1o1p.jpg',
@@ -394,11 +405,18 @@ const itemData = [
     mSrc : '#/CharlieFest',
     tag: 'CharlieFest',
   },
-
+  {
+    img: 'https://i.imgur.com/ptR7WGK.jpg',
+    mSrc: 'https://open.spotify.com/album/6wCGLGlpc4tBkTduMHOYW1?si=A_EJLs-SSry_kKlTo_jfZA',
+    title: 'Propane Tapes (Spotify)',
+    author:'Chevy Kalpin',
+    tag: 'music',
+  },
   {
          img: 'https://i.imgur.com/iFhaZFG.jpg',
-         title: 'WINNER',
-         tag: 'ppl',
+         mSrc: 'https://open.spotify.com/artist/23Ai2eAbhdz6j3rRSVYxTY?si=N9GcjiG5Q_mY5hmEl1TcoQ',
+         title: 'Chevy Kalpin Spotify',
+         tag: 'music',
 
        },
 
