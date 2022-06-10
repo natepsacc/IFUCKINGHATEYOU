@@ -79,8 +79,8 @@ function Landing(props) {
 
   <Box
   sx={{maxWidth:{
-          mobile: '100vw',
-          bigMobile: '100vw',
+          mobile: '95vw',
+          bigMobile: '95vw',
           tablet: '30vw',
           desktop: '40vw'},
         maxHeight:{
