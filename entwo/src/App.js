@@ -82,7 +82,7 @@ function Landing(props) {
           mobile: '100vw',
           bigMobile: '100vw',
           tablet: '30vw',
-          desktop: '30vw'},
+          desktop: '40vw'},
         maxHeight:{
           mobile: '100%',
           bigMobile: '100%',
@@ -92,9 +92,12 @@ function Landing(props) {
           borderTopRightRadius: '30%',
           borderTopLeftRadius: '30%',
           paddingTop:'15vh',
+          paddingLeft:'2vw',
+          paddingRight:'2vw',
+
           marginLeft: 'auto',
           marginRight: 'auto',
-
+          marginTop: '5vh'
 
 }} >
   <ENLogo/>
