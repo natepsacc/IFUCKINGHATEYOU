@@ -84,8 +84,8 @@ function Landing(props) {
           tablet: '30vw',
           desktop: '40vw'},
         maxHeight:{
-          mobile: '100%',
-          bigMobile: '100%',
+          mobile: '100vh',
+          bigMobile: '100vh',
           tablet: '25%',
           desktop: ''},
           border: '10px dashed #f000e8',
