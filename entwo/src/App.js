@@ -60,7 +60,7 @@ function RectangleSlide(props) {
 
 function ENLogo(props) {
   return(
-    <a id="enlogoA" href='/#/'>
+    <a id="enlogoA" href='#/gallery'>
     <img src={logo} className='ENlogo' alt="logo" sx={{
 
         }}/>
