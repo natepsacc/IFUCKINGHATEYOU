@@ -2,6 +2,7 @@ import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import { Text, StyleSheet } from "react";
 
 import Box from '@mui/material/Box';
 import imageListItemClasses from "@mui/material/ImageListItem";
@@ -20,7 +21,6 @@ spacing: 2,
 });
 
 export default function StandardImageList(props) {
-
 
   let sort = itemData.filter((element) => {
       if (element.tag === props.tag) {
@@ -44,6 +44,7 @@ const imageClick = (props) => {
   console.log('Click!!!!');
   window.open(props, '_self');
 }
+const bodyText = "This is not really a bird nest.";
 
       return (
       <ThemeProvider theme={theme}>
@@ -78,14 +79,17 @@ const imageClick = (props) => {
                title={item.title}
                subtitle={item.author}
                            />
-       </ImageListItem>
-     ))}
 
+     </ImageListItem>
+
+     ))}
 </ImageList>
+
 </ThemeProvider>
 
 
       );
+
 }
 
 const itemData = [
@@ -103,7 +107,13 @@ const itemData = [
     author:'Thomas Mazzetti',
     tag: 'music',
   },
-
+{
+  img: 'https://i.imgur.com/NZPvCgW.jpg',
+  title: 'GUTTER HAIR Live',
+  author:'042922',
+  mSrc : '#/042922',
+  tag: '042922',
+},
   {
     img: 'https://f4.bcbits.com/img/a1335165522_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/xanderhill?from=embed',
@@ -119,7 +129,14 @@ const itemData = [
     author:'Pocket Slop',
     tag: 'music',
   },
-
+  {
+    img: 'https://i.imgur.com/MdPNkEi.jpg',
+    title: 'GUTTER HAIR Live',
+    author:'042922',
+    mSrc : '#/042922',
+    tag: '042922',
+    tag2 :'live'
+  },
   {
     img: 'https://f4.bcbits.com/img/a0286543651_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/songs-for-a-living-corpse',
@@ -140,7 +157,14 @@ const itemData = [
     title: 'Nick at Brain Sweat Practice',
     tag: 'ppl',
   },
-
+  {
+    img: 'https://i.imgur.com/qpCTbQ2.jpg',
+    title: 'Brain Sweat Recording Session',
+    author:'042422',
+    mSrc : '#/042422',
+    tag: '042422',
+    descTxt : 'test'
+  },
   {
     img: 'https://f4.bcbits.com/img/a4239659115_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/blood-agar-home',
@@ -184,7 +208,11 @@ const itemData = [
     tag: 'ppl',
 
   },
-
+  {
+    img: 'https://i.imgur.com/qpCTbQ2.jpg',
+    title: 'Nick at Brain Sweat Practice',
+    tag: 'ppl',
+  },
 
 
 
@@ -239,7 +267,13 @@ const itemData = [
     author:'Brain Sweat',
     tag: 'music',
   },
-
+{
+  img: 'https://i.imgur.com/U81p2ti.jpg',
+  title: 'GUTTER HAIR Live',
+  author:'042922',
+  mSrc : '#/042922',
+  tag: '042922',
+},
   {
     img: 'https://f4.bcbits.com/img/a3970676027_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/a-brick-fell-out-the-house',
@@ -256,7 +290,13 @@ const itemData = [
     author:'belac',
     tag: 'music',
   },
-
+  {
+    img: 'https://i.imgur.com/poD1o1p.jpg',
+    title: 'GUTTER HAIR Live',
+    author:'042922',
+    mSrc : '#/042922',
+    tag: '042922',
+  },
   {
     img: 'https://f4.bcbits.com/img/a1357466672_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/track/have-a-sloppy-lil-christmas',
@@ -280,13 +320,26 @@ const itemData = [
     author:'Trucking To Tokyo',
     tag: 'music',
   },
-
+  {
+    img: 'https://i.imgur.com/efD0ea7.jpg',
+    title: 'GUTTER HAIR Live',
+    author:'042922',
+    mSrc : '#/042922',
+    tag: '042922',
+  },
   {
     img: 'https://f4.bcbits.com/img/a4217347510_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/adultery-seawalls',
     title: 'Adultery/Seawalls',
     author:'Floor Boy',
     tag: 'music',
+  },
+  {
+    img: 'https://i.imgur.com/8Kys1bg.jpg',
+    title: 'CharlieFest',
+    author:'2022',
+    mSrc : '#/CharlieFest',
+    tag: 'CharlieFest',
   },
   {
     img: 'https://i.imgur.com/pnbVTTH.jpg',
@@ -318,7 +371,13 @@ const itemData = [
     author:'Chevy Kalpin',
     tag: 'music',
   },
-
+  {
+    img: 'https://i.imgur.com/BkBXM8w.jpg',
+    title: 'Brain Sweat Recording Session',
+    author:'042422',
+    mSrc : '#/042422',
+    tag: '042422',
+  },
 
   {
     img: 'https://f4.bcbits.com/img/a3782926223_16.jpg',
@@ -328,8 +387,13 @@ const itemData = [
     tag: 'live',
     tag: 'music',
   },
-
-
+  {
+    img: 'https://i.imgur.com/EPoNIX2.jpg',
+    title: 'CharlieFest',
+    author:'2022',
+    mSrc : '#/CharlieFest',
+    tag: 'CharlieFest',
+  },
 
   {
          img: 'https://i.imgur.com/iFhaZFG.jpg',
@@ -338,9 +402,20 @@ const itemData = [
 
        },
 
-
-
-
+       {
+         img: 'https://i.imgur.com/Q5PyNcF.jpg',
+         title: 'Brain Sweat Recording Session',
+         author:'042422',
+         mSrc : '#/042422',
+         tag: '042422',
+       },
+{
+  img: 'https://i.imgur.com/0CZOWvg.jpg',
+  title: 'Brain Sweat Recording Session',
+  author:'042422',
+  mSrc : '#/042422',
+  tag: '042422',
+},
 
 
 ];

@@ -1,7 +1,7 @@
 import logo from './logo.png';
 import './App.css';
 import post from './post.js';
-import React from 'react';
+import {React, Text, StyleSheet} from 'react';
 import ReactDOM from 'react-dom/client';
 import StandardImageList from './imageList.js';
 import { HashRouter, Route, Routes } from "react-router-dom";
@@ -60,8 +60,8 @@ function RectangleSlide(props) {
 
 function ENLogo(props) {
   return(
-    <a id="enlogoA" href='#/'>
-    <img src={logo} className="ENlogo" alt="logo" sx={{
+    <a id="enlogoA" href='/#/'>
+    <img src={logo} className={props.Cname} alt="logo" sx={{
 
         }}/>
     </a>
@@ -100,7 +100,7 @@ function Landing(props) {
           marginTop: '5vh'
 
 }} >
-  <ENLogo/>
+  <ENLogo Cname='ENlogo'/>
 
       <p id="desc">
 
@@ -126,23 +126,58 @@ function Landing(props) {
 
 
 }
-function borders(props){
-
-}
 
 
 function GalleryLayout(props){
+
     console.log("BR Hello world");
+
     return(
       <div>
-      <ENLogo/>
+      <ENLogo Cname='ENlogoSM'/>
       <RectangleSlide/>
 
   <div class="interiorGal">
 
-<StandardImageList />
+<StandardImageList tag={props.tag}/>
+<Box
+sx={{maxWidth:{
+        mobile: '75vw',
+        bigMobile: '75vw',
+        tablet: '30vw',
+        desktop: '30vw'},
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        zIndex: '5',
+        backgroundColor: 'white',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        padding: '3vh',
+        fontFamily: 'Courier New',
+      }}>
+
+
+
+
+
+<p id="postDesc">{props.text}</p>
+
+</Box>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
   </div>
+
   </div>
 
 
@@ -156,16 +191,23 @@ function GalleryLayout(props){
 
 
 
+
 function App() {
 
   document.getElementById("desc");
-
+ const A042422TXT = "From the Brain Sweat recording session on Apr 24th. Working on recording the album the Metaphysical Cowboy with recording engineer Ben Slater. Photographed: Chevy Kalpin, Nick McDill, Ben Slater, and Caleb Phillips. - Mary M";
+ const A042922TXT = "Photos were taken at the greenhouse on Apr.29th during the noise show and before at the band practice space. The lineup included Tom Mazetti on solo sousaphone. Oxygen thief on bass and electronics and Forrest Friends out of Seattle. - Mary M";
+ const CharlieFestTXT = "Taken during CharlieFest which was a birthday celebration for Charlie. Brain Sweat, Yegarma, Super Ultra, and Nyandi played sets in the woods using a generator for power. - Mary M"
   return (
     <span>
 
 		<Routes>
        <Route path='/gallery' element={<GalleryLayout /> } />
        <Route  path='/' element={<Landing/> } />
+       <Route  path='/042422' element={<GalleryLayout tag="042422" text={A042422TXT}/> } />
+       <Route  path='/042922' element={<GalleryLayout tag="042922" text={A042922TXT}/> } />
+       <Route  path='/CharlieFest' element={<GalleryLayout tag="CharlieFest" text={CharlieFestTXT}/> } />
+
 
 
     </Routes>
