@@ -253,7 +253,8 @@ function App() {
  const A042422TXT = "From the Brain Sweat recording session on Apr 24th. Working on recording the album the Metaphysical Cowboy with recording engineer Ben Slater. Photographed: Chevy Kalpin, Nick McDill, Ben Slater, and Caleb Phillips. - Mary M";
  const A042922TXT = "Photos were taken at the greenhouse on Apr.29th during the noise show and before at the band practice space. The lineup included Tom Mazetti on solo sousaphone. Oxygen thief on bass and electronics and Forrest Friends out of Seattle. - Mary M";
  const CharlieFestTXT = "Taken during CharlieFest which was a birthday celebration for Charlie. Brain Sweat, Yegarma, Super Ultra, and Nyandi played sets in the woods using a generator for power. - Mary M"
- const A021022TXT ='';
+ const A021022TXT = "It was probably 46 degrees in the storage facility practice space when we took these.  Nick McDill, Caleb Phillips, Mary MacGuire, and Chevy cunt were practicing the cowboy record i believe.  i think that cool recording artist was there too, dude was nice but i felt intimidated by him i think. i felt strange because i forgot how incredible Brain Sweat is live. if youve never been around musicians, theres a really strange silence after the practicing.  love u, nathan "
+
   return (
     <span>
 

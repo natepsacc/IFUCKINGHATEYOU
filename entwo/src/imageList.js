@@ -44,7 +44,6 @@ const imageClick = (props) => {
   console.log('Click!!!!');
   window.open(props, '_self');
 }
-const bodyText = "This is not really a bird nest.";
 
       return (
       <ThemeProvider theme={theme}>
@@ -99,7 +98,7 @@ const itemData = [
     author: 'Indoor Astronauts',
     tag: 'music',
   },
-  
+
   {
     img: 'https://f4.bcbits.com/img/a0279092000_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/track/feel-me',
@@ -122,6 +121,7 @@ const itemData = [
     tag: 'music',
   },
 
+
   {
     img: 'https://f4.bcbits.com/img/a3201002983_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/dead-at-the-4-20',
@@ -135,6 +135,8 @@ const itemData = [
     title: 'Trucking To Tokyo',
     author:'Spotify Discography Playlist',
     tag: 'music',
+    tag2: 'social',
+
   },
   {
     img: 'https://i.imgur.com/MdPNkEi.jpg',
@@ -289,6 +291,7 @@ const itemData = [
     title: 'plainly lacking having (Spotify)',
     author:'Chevy Kalpin ',
     tag: 'music',
+    tag2: 'social',
   },
 
   {
@@ -400,7 +403,13 @@ const itemData = [
     mSrc : '#/042422',
     tag: '042422',
   },
-
+  {
+    img: 'https://i.imgur.com/rBHjiUV.jpg',
+    mSrc: 'https://discord.gg/M8MhsAHB',
+    title: 'discord server',
+    author:'',
+    tag: 'music',
+  },
   {
     img: 'https://f4.bcbits.com/img/a3782926223_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/live-from-the-cube',
@@ -429,13 +438,14 @@ const itemData = [
     title: 'Propane Tapes (Spotify)',
     author:'Chevy Kalpin',
     tag: 'music',
+    tag2: 'social',
   },
   {
          img: 'https://i.imgur.com/iFhaZFG.jpg',
          mSrc: 'https://open.spotify.com/artist/23Ai2eAbhdz6j3rRSVYxTY?si=N9GcjiG5Q_mY5hmEl1TcoQ',
          title: 'Chevy Kalpin Spotify',
          tag: 'music',
-
+tag2: 'social',
        },
 
        {
