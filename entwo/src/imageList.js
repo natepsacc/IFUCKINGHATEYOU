@@ -339,6 +339,13 @@ const itemData = [
     tag: 'music',
   },
   {
+    img: 'https://i.imgur.com/BJMvSC2.jpg',
+    mSrc: 'https://discord.gg/M8MhsAHB',
+    title: 'discord server',
+    author:'',
+    tag: 'music',
+  },
+  {
     img: 'https://f4.bcbits.com/img/a2451389976_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/ashita-no-tengu-2',
     title: 'ashita no tengu',
