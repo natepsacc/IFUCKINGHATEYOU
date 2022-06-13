@@ -404,7 +404,7 @@ const itemData = [
     tag: '042422',
   },
   {
-    img: 'https://i.imgur.com/rBHjiUV.jpg',
+    img: 'https://i.imgur.com/VdBVUqB.jpg',
     mSrc: 'https://discord.gg/M8MhsAHB',
     title: 'discord server',
     author:'',
