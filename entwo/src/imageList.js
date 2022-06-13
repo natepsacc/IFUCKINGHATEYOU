@@ -182,6 +182,13 @@ const itemData = [
     tag: 'music',
   },
   {
+    img: 'https://i.imgur.com/inu4zIh.png',
+    mSrc: 'www.instagram.com/eatingnapkins/',
+    title: ' EN instagram',
+    author:'',
+    tag: 'music',
+  },
+  {
     img: 'https://i.imgur.com/Gila5Ll.jpg',
     mSrc:'#/021022',
     title: 'Mary and Chevy',
@@ -373,12 +380,16 @@ const itemData = [
     mSrc : '#/CharlieFest',
     tag: 'CharlieFest',
   },
+
   {
     img: 'https://i.imgur.com/pnbVTTH.jpg',
-    title: 'Docs at Brain Sweat practice',
-    tag: 'product',
+    title: '021022',
+    author:'',
+    mSrc : '#/021022',
+    tag: '021022',
 
   },
+
 
   {
     img: 'https://f4.bcbits.com/img/a3073542734_16.jpg',
