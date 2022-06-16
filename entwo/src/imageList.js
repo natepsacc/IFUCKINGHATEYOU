@@ -7,6 +7,8 @@ import { Text, StyleSheet } from "react";
 import Box from '@mui/material/Box';
 import imageListItemClasses from "@mui/material/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 const theme = createTheme({
 spacing: 2,
@@ -55,15 +57,19 @@ const imageClick = (props) => {
              bigMobile: '50%',
              tablet: '45%',
              desktop: '50%'}}}>
-         <img
 
-           id={item.img}
-           src={`${item.img}`}
-           srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-           alt={item.title}
-           onClick={() => imageClick(item.mSrc)}
-           loading="lazy"
-              />
+              <LazyLoadImage
+              id={item.img}
+                  width="100%"
+                  height="inherit"
+                    effect="opacity"
+                   alt={item.title}
+                   src={item.img}
+                   onClick={() => imageClick(item.mSrc)}
+
+                    //placeholderSrc="https://upload.wikimedia.org/wikipedia/commons/f/f2/Emacs27_showing_Org%2C_Magit%2C_and_Dired_with_the_modus-operandi_theme.png"
+                    />
+
               <ImageListItemBar sx={{
                 fontFamily: 'Courier New',
                 fontFamily: 'monospace',
@@ -345,13 +351,7 @@ const itemData = [
     author:'GUTTER HAIR',
     tag: 'music',
   },
-  {
-    img: 'https://i.imgur.com/BJMvSC2.jpg',
-    mSrc: 'https://discord.gg/M8MhsAHB',
-    title: 'discord server',
-    author:'',
-    tag: 'music',
-  },
+
   {
     img: 'https://f4.bcbits.com/img/a2451389976_16.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/ashita-no-tengu-2',
@@ -498,6 +498,13 @@ tag2: 'social',
 ];
 
 const unused = [
+  {
+    img: 'https://i.imgur.com/BJMvSC2.jpg',
+    mSrc: 'https://discord.gg/M8MhsAHB',
+    title: 'discord server',
+    author:'',
+    tag: 'music',
+  },
   {
     img: 'https://i.imgur.com/zrYdXWS.jpg',
     title: 'Ian 2',
