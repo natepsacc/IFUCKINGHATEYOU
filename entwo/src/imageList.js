@@ -52,7 +52,13 @@ const imageClick = (props) => {
 
   <ImageList variant="masonry"  gap={10}>
      {sort.map((item) => (
-       <ImageListItem key={item.img} id="height" sx={{maxHeight:"40%", maxWidth:{
+       <ImageListItem key={item.img} id="height" sx={{
+         bgcolor: '#f0ddc1c2',
+         boxShadow: 1,
+         borderRadius: 4,
+         p: 2,
+         maxHeight:"40%",
+         maxWidth:{
          mobile: '100%',
              bigMobile: '50%',
              tablet: '45%',
