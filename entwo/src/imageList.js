@@ -98,6 +98,13 @@ const imageClick = (props) => {
 }
 const itemData = [
   {
+    img: 'https://i.imgur.com/HWkSwA8.jpg',
+    mSrc: 'https://www.instagram.com/p/Ce1HVPJFIu_/',
+    title: 'TOUR DATES',
+    author: 'BRAINSWEAT',
+    tag: 'music',
+  },
+  {
     img: 'https://f4.bcbits.com/img/a2212889666_5.jpg',
     mSrc: 'https://eatingnapkins.bandcamp.com/album/infinite-castle',
     title: 'infinite-castle',
