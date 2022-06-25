@@ -135,7 +135,6 @@ if (props.text ===  GLayoutFootcheck){
   return(
     <div>
     <ENLogo />
-    <RectangleSlide/>
 
 <div class="interiorGal">
 

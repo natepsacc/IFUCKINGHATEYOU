@@ -59,6 +59,7 @@ const imageClick = (props) => {
              desktop: '50%'}}}>
 
               <LazyLoadImage
+              className='imgClass'
               id={item.img}
                   width="100%"
                   height="inherit"
@@ -102,6 +103,24 @@ const itemData = [
     mSrc: 'https://www.instagram.com/p/Ce1HVPJFIu_/',
     title: 'TOUR DATES',
     author: 'BRAINSWEAT',
+    tag: 'music',
+  },
+  {
+    img: 'https://i.imgur.com/a5o0zro.jpg',
+    title: 'Nick at Practice',
+    tag: 'ppl',
+    mSrc:'#/021022',
+
+    author:'021022',
+
+    tag: '021022',
+
+  },
+  {
+    img: 'https://i.imgur.com/inu4zIh.png',
+    mSrc: 'www.instagram.com/eatingnapkins/',
+    title: ' EN instagram',
+    author:'',
     tag: 'music',
   },
   {
@@ -175,17 +194,7 @@ const itemData = [
     tag: 'music',
   },
 
-  {
-    img: 'https://i.imgur.com/a5o0zro.jpg',
-    title: 'Nick at Practice',
-    tag: 'ppl',
-    mSrc:'#/021022',
 
-    author:'021022',
-
-    tag: '021022',
-
-  },
 
   {
     img: 'https://f4.bcbits.com/img/a4239659115_5.jpg',
@@ -194,13 +203,7 @@ const itemData = [
     author:'Trucking To Tokyo',
     tag: 'music',
   },
-  {
-    img: 'https://i.imgur.com/inu4zIh.png',
-    mSrc: 'www.instagram.com/eatingnapkins/',
-    title: ' EN instagram',
-    author:'',
-    tag: 'music',
-  },
+
   {
     img: 'https://i.imgur.com/Gila5Ll.jpg',
     mSrc:'#/021022',
